@@ -2,7 +2,7 @@
   <div class="screen">
     <!-- Start: Info  -->
     <div class="row" v-if="user">
-      <div class="container mx-auto p-8">
+      <div class="container mx-auto ">
         <div class="text-center">
           <div class="w-24 h-24 rounded-full overflow-hidden mx-auto">
             <img
@@ -80,7 +80,7 @@
                 class="last:text-red"
               >
                 <router-link
-                  class="flex items-center py-3 justify-between"
+                  class="flex items-center py-2 justify-between"
                   :to="profileOption.route"
                 >
                   <div class="flex text-left items-center">

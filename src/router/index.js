@@ -63,7 +63,7 @@ const routes = [
     path: "/addReport",
     name: "AddReport",
     meta: {
-      text: "Report",
+      text: "ADD REPORT",
       leading: false,
       isShowFooter: false
     },
@@ -98,9 +98,9 @@ const routes = [
   },
   {
     path: "/addBudget",
-    name: "addBudget",
+    name: "ADD BUDGET",
     meta: {
-      text: "Budget",
+      text: "ADD BUDGET",
       leading: false,
       isShowFooter: false
     },
@@ -167,7 +167,7 @@ const routes = [
     path: "/addCardAccount",
     name: "addCard",
     meta: {
-      text: "Card Account",
+      text: "ADD CARD",
       leading: false,
       isShowFooter: false
     },

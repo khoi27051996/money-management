@@ -4,7 +4,7 @@
       <!-- Error  -->
       <h1 v-if="error" class="text-red">{{ error }}</h1>
       <!-- Form  -->
-      <form class="flex flex-col space-y-6" @submit.prevent="onSubmit">
+      <form class="flex flex-col space-y-3" @submit.prevent="onSubmit">
         <div class="row">
           <label class="flex flex-col" for="fullName">
             <span class="font-semibold">Full Name</span>

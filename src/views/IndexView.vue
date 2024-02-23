@@ -1,6 +1,9 @@
 <template>
   <div class="screen">
-    <div class="mx-auto ml-2 px-8" v-if="datas.length > 0">
+    <div
+      class="mx-auto ml-2 px-8 absolute py-20 w-full"
+      v-if="datas.length > 0"
+    >
       <div class="flex justify-between items-center">
         <h1 class="font-bold text-xl">Total expenditures :</h1>
         <h2>{{ totalPrice.toLocaleString() }} VNĐ</h2>

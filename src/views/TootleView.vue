@@ -1,6 +1,6 @@
 <template>
   <div class="screen">
-    <div class="content-tool">
+    <div class="content-tool absolute py-20 w-full">
       <h1>Tool page is building....</h1>
       <div class="loading-animation">
         <p>L</p>

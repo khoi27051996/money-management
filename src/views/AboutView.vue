@@ -1,6 +1,6 @@
 <template>
   <div class="screen">
-    <div class="px-8 ml-2">
+    <div class="px-8 ml-2 absolute py-20 w-full">
       <h1 class="font-bold my-5">INTRODUCTION :</h1>
       <p class="tracking-widest py-5">
         I created this application for the purpose of managing each individual's
